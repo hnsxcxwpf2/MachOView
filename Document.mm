@@ -332,6 +332,7 @@ enum ViewType
 - (id)init
 {
   self = [super init];
+    [offsetModeSwitch setLabel:@"RAWdd" forSegment:1];
   if (self) 
   {
     dataController = [[MVDataController alloc] init];
